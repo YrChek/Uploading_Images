@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture</Picture></title>
+</head>
+<body>
+  <div class="container">
+    <div class="forms">
+      <div class="form-name">
+        <span class="title">Название</span>
+        <input type="text" class="field-name field-css">
+      </div>
+      <form class="form">
+        <div class="form-url">
+          <span class="title">Ссылка на изображение</span>
+          <input type="text" class="field-url field-css" required oninvalid="this.setCustomValidity('Введите URL адрес изображения')" oninput="setCustomValidity('')"">
+        </div>
+        <div class="error">Неверный URL изображения</div>
+        <div class="button">
+          <button class="btn">Добавить</button>
+        </div>
+      </form>
+    </div>
+    <div class="img-box"></div>
+  </div>
+  <script src="/src/index.js" type="module"></script>
+</body>
+</html>
