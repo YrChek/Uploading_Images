@@ -6,7 +6,7 @@
 }
 
 .forms {
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
   border: 2px solid black;
   border-radius: 10px;
@@ -20,12 +20,8 @@
 
 .title {
   margin-right: 20px;
-  font-size: calc(0.625vw + 6.25px);
+  font-size: 14px;
 }
-
-/* .form {
-  margin-top: 15px;
-} */
 
 .form-url {
   display: flex;
